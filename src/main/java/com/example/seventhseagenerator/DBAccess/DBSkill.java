@@ -76,6 +76,7 @@ public class DBSkill {
      * @param q String with wildcard
      * @return ObservableList<Skill> of matching Skills
      */
+    //How to use a wildcard in a SELECT query in Java prepared statement here:
 //https://stackoverflow.com/questions/8247970/using-like-wildcard-in-prepared-statement
     public static ObservableList<Skill> lookupSkill(String q) {
         ObservableList<Skill> skills = FXCollections.observableArrayList();

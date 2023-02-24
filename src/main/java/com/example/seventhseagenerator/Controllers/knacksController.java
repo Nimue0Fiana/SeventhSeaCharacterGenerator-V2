@@ -63,7 +63,8 @@ public class knacksController implements Initializable {
     private Button updateButton; // Value injected by FXMLLoader
 
     /**
-     * Set hero point total label, populate knacks and initial knack rank
+     * Set hero point total label, populate knacks and initial knack rank, incrementing each knack that
+     * occurs on more than one skill
      *
      * @param url
      * @param resourceBundle
@@ -120,7 +121,7 @@ public class knacksController implements Initializable {
 
     /**
      * Checks that user hasn't over-spent points, updates the list of knacks attached to the character
-     *
+     *A
      * @param event
      */
     @FXML

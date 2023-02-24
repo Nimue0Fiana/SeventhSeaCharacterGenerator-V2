@@ -15,6 +15,7 @@ public class DBNation {
      * Creates all nations in the database.
      * For use by the DBCreate class
      */
+    //How to insert multiple rows using a single query found here:
 //https://stackoverflow.com/questions/1609637/is-it-possible-to-insert-multiple-rows-at-a-time-in-an-sqlite-database/1734067#1734067
     //INSERT INTO 'tablename'
     //          SELECT 'data1' AS 'column1', 'data2' AS 'column2'
